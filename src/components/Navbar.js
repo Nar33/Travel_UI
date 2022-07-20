@@ -26,7 +26,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closemobileMenu}>
-            Travel Sky
+            Sky Travel
           </Link>
 
           <ul className={click ? "nav-bar active" : "nav-menu"}>
